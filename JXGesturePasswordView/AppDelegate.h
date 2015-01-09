@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  JXGesturePasswordView
 //
-//  Created by leon on 15/1/9.
+//  Created by JX on 15/1/9.
 //
 //
 
