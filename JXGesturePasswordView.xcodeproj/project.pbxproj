@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3561C2F61A5F962100BD9E6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561C2F51A5F962100BD9E6A /* main.m */; };
+		3561C2F91A5F962100BD9E6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561C2F81A5F962100BD9E6A /* AppDelegate.m */; };
+		3561C2FC1A5F962100BD9E6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561C2FB1A5F962100BD9E6A /* ViewController.m */; };
+		3561C2FF1A5F962100BD9E6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3561C2FD1A5F962100BD9E6A /* Main.storyboard */; };
+		3561C3011A5F962100BD9E6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3561C3001A5F962100BD9E6A /* Images.xcassets */; };
+		3561C3041A5F962100BD9E6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3561C3021A5F962100BD9E6A /* LaunchScreen.xib */; };
+		3561C3101A5F962100BD9E6A /* JXGesturePasswordViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561C30F1A5F962100BD9E6A /* JXGesturePasswordViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3561C30A1A5F962100BD9E6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3561C2E81A5F962100BD9E6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3561C2EF1A5F962100BD9E6A;
+			remoteInfo = JXGesturePasswordView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3561C2F01A5F962100BD9E6A /* JXGesturePasswordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXGesturePasswordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3561C2F41A5F962100BD9E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3561C2F51A5F962100BD9E6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3561C2F71A5F962100BD9E6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3561C2F81A5F962100BD9E6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3561C2FA1A5F962100BD9E6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3561C2FB1A5F962100BD9E6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3561C2FE1A5F962100BD9E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3561C3001A5F962100BD9E6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3561C3031A5F962100BD9E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3561C3091A5F962100BD9E6A /* JXGesturePasswordViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXGesturePasswordViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3561C30E1A5F962100BD9E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3561C30F1A5F962100BD9E6A /* JXGesturePasswordViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXGesturePasswordViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3561C2ED1A5F962100BD9E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3561C3061A5F962100BD9E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3561C2E71A5F962100BD9E6A = {
+			isa = PBXGroup;
+			children = (
+				3561C2F21A5F962100BD9E6A /* JXGesturePasswordView */,
+				3561C30C1A5F962100BD9E6A /* JXGesturePasswordViewTests */,
+				3561C2F11A5F962100BD9E6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3561C2F11A5F962100BD9E6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3561C2F01A5F962100BD9E6A /* JXGesturePasswordView.app */,
+				3561C3091A5F962100BD9E6A /* JXGesturePasswordViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3561C2F21A5F962100BD9E6A /* JXGesturePasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				3561C2F71A5F962100BD9E6A /* AppDelegate.h */,
+				3561C2F81A5F962100BD9E6A /* AppDelegate.m */,
+				3561C2FA1A5F962100BD9E6A /* ViewController.h */,
+				3561C2FB1A5F962100BD9E6A /* ViewController.m */,
+				3561C2FD1A5F962100BD9E6A /* Main.storyboard */,
+				3561C3001A5F962100BD9E6A /* Images.xcassets */,
+				3561C3021A5F962100BD9E6A /* LaunchScreen.xib */,
+				3561C2F31A5F962100BD9E6A /* Supporting Files */,
+			);
+			path = JXGesturePasswordView;
+			sourceTree = "<group>";
+		};
+		3561C2F31A5F962100BD9E6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3561C2F41A5F962100BD9E6A /* Info.plist */,
+				3561C2F51A5F962100BD9E6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3561C30C1A5F962100BD9E6A /* JXGesturePasswordViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3561C30F1A5F962100BD9E6A /* JXGesturePasswordViewTests.m */,
+				3561C30D1A5F962100BD9E6A /* Supporting Files */,
+			);
+			path = JXGesturePasswordViewTests;
+			sourceTree = "<group>";
+		};
+		3561C30D1A5F962100BD9E6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3561C30E1A5F962100BD9E6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3561C2EF1A5F962100BD9E6A /* JXGesturePasswordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3561C3131A5F962100BD9E6A /* Build configuration list for PBXNativeTarget "JXGesturePasswordView" */;
+			buildPhases = (
+				3561C2EC1A5F962100BD9E6A /* Sources */,
+				3561C2ED1A5F962100BD9E6A /* Frameworks */,
+				3561C2EE1A5F962100BD9E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXGesturePasswordView;
+			productName = JXGesturePasswordView;
+			productReference = 3561C2F01A5F962100BD9E6A /* JXGesturePasswordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3561C3081A5F962100BD9E6A /* JXGesturePasswordViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3561C3161A5F962100BD9E6A /* Build configuration list for PBXNativeTarget "JXGesturePasswordViewTests" */;
+			buildPhases = (
+				3561C3051A5F962100BD9E6A /* Sources */,
+				3561C3061A5F962100BD9E6A /* Frameworks */,
+				3561C3071A5F962100BD9E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3561C30B1A5F962100BD9E6A /* PBXTargetDependency */,
+			);
+			name = JXGesturePasswordViewTests;
+			productName = JXGesturePasswordViewTests;
+			productReference = 3561C3091A5F962100BD9E6A /* JXGesturePasswordViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3561C2E81A5F962100BD9E6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					3561C2EF1A5F962100BD9E6A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3561C3081A5F962100BD9E6A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3561C2EF1A5F962100BD9E6A;
+					};
+				};
+			};
+			buildConfigurationList = 3561C2EB1A5F962100BD9E6A /* Build configuration list for PBXProject "JXGesturePasswordView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3561C2E71A5F962100BD9E6A;
+			productRefGroup = 3561C2F11A5F962100BD9E6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3561C2EF1A5F962100BD9E6A /* JXGesturePasswordView */,
+				3561C3081A5F962100BD9E6A /* JXGesturePasswordViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3561C2EE1A5F962100BD9E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3561C2FF1A5F962100BD9E6A /* Main.storyboard in Resources */,
+				3561C3041A5F962100BD9E6A /* LaunchScreen.xib in Resources */,
+				3561C3011A5F962100BD9E6A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3561C3071A5F962100BD9E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3561C2EC1A5F962100BD9E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3561C2FC1A5F962100BD9E6A /* ViewController.m in Sources */,
+				3561C2F91A5F962100BD9E6A /* AppDelegate.m in Sources */,
+				3561C2F61A5F962100BD9E6A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3561C3051A5F962100BD9E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3561C3101A5F962100BD9E6A /* JXGesturePasswordViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3561C30B1A5F962100BD9E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3561C2EF1A5F962100BD9E6A /* JXGesturePasswordView */;
+			targetProxy = 3561C30A1A5F962100BD9E6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3561C2FD1A5F962100BD9E6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3561C2FE1A5F962100BD9E6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3561C3021A5F962100BD9E6A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3561C3031A5F962100BD9E6A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3561C3111A5F962100BD9E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3561C3121A5F962100BD9E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3561C3141A5F962100BD9E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXGesturePasswordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3561C3151A5F962100BD9E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXGesturePasswordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3561C3171A5F962100BD9E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JXGesturePasswordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXGesturePasswordView.app/JXGesturePasswordView";
+			};
+			name = Debug;
+		};
+		3561C3181A5F962100BD9E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JXGesturePasswordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXGesturePasswordView.app/JXGesturePasswordView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3561C2EB1A5F962100BD9E6A /* Build configuration list for PBXProject "JXGesturePasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3561C3111A5F962100BD9E6A /* Debug */,
+				3561C3121A5F962100BD9E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3561C3131A5F962100BD9E6A /* Build configuration list for PBXNativeTarget "JXGesturePasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3561C3141A5F962100BD9E6A /* Debug */,
+				3561C3151A5F962100BD9E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3561C3161A5F962100BD9E6A /* Build configuration list for PBXNativeTarget "JXGesturePasswordViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3561C3171A5F962100BD9E6A /* Debug */,
+				3561C3181A5F962100BD9E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3561C2E81A5F962100BD9E6A /* Project object */;
+}
