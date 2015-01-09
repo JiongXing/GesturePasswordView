@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350DEB6C1A5FB7B9004B4E70 /* JXGesturePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 350DEB6B1A5FB7B9004B4E70 /* JXGesturePasswordView.m */; };
+		350DEB741A5FBD8B004B4E70 /* 密码1.png in Resources */ = {isa = PBXBuildFile; fileRef = 350DEB6E1A5FBD8B004B4E70 /* 密码1.png */; };
+		350DEB751A5FBD8B004B4E70 /* 密码1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 350DEB6F1A5FBD8B004B4E70 /* 密码1@2x.png */; };
+		350DEB761A5FBD8B004B4E70 /* 密码2.png in Resources */ = {isa = PBXBuildFile; fileRef = 350DEB701A5FBD8B004B4E70 /* 密码2.png */; };
+		350DEB771A5FBD8B004B4E70 /* 密码2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 350DEB711A5FBD8B004B4E70 /* 密码2@2x.png */; };
+		350DEB781A5FBD8B004B4E70 /* 密码3.png in Resources */ = {isa = PBXBuildFile; fileRef = 350DEB721A5FBD8B004B4E70 /* 密码3.png */; };
+		350DEB791A5FBD8B004B4E70 /* 密码3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 350DEB731A5FBD8B004B4E70 /* 密码3@2x.png */; };
 		3561C2F61A5F962100BD9E6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561C2F51A5F962100BD9E6A /* main.m */; };
 		3561C2F91A5F962100BD9E6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561C2F81A5F962100BD9E6A /* AppDelegate.m */; };
 		3561C2FC1A5F962100BD9E6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561C2FB1A5F962100BD9E6A /* ViewController.m */; };
@@ -27,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		350DEB6A1A5FB7B9004B4E70 /* JXGesturePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXGesturePasswordView.h; sourceTree = "<group>"; };
+		350DEB6B1A5FB7B9004B4E70 /* JXGesturePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXGesturePasswordView.m; sourceTree = "<group>"; };
+		350DEB6E1A5FBD8B004B4E70 /* 密码1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码1.png"; sourceTree = "<group>"; };
+		350DEB6F1A5FBD8B004B4E70 /* 密码1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码1@2x.png"; sourceTree = "<group>"; };
+		350DEB701A5FBD8B004B4E70 /* 密码2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码2.png"; sourceTree = "<group>"; };
+		350DEB711A5FBD8B004B4E70 /* 密码2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码2@2x.png"; sourceTree = "<group>"; };
+		350DEB721A5FBD8B004B4E70 /* 密码3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码3.png"; sourceTree = "<group>"; };
+		350DEB731A5FBD8B004B4E70 /* 密码3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码3@2x.png"; sourceTree = "<group>"; };
 		3561C2F01A5F962100BD9E6A /* JXGesturePasswordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXGesturePasswordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3561C2F41A5F962100BD9E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3561C2F51A5F962100BD9E6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +75,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		350DEB6D1A5FBD8B004B4E70 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				350DEB6E1A5FBD8B004B4E70 /* 密码1.png */,
+				350DEB6F1A5FBD8B004B4E70 /* 密码1@2x.png */,
+				350DEB701A5FBD8B004B4E70 /* 密码2.png */,
+				350DEB711A5FBD8B004B4E70 /* 密码2@2x.png */,
+				350DEB721A5FBD8B004B4E70 /* 密码3.png */,
+				350DEB731A5FBD8B004B4E70 /* 密码3@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		3561C2E71A5F962100BD9E6A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,9 @@
 				3561C2F81A5F962100BD9E6A /* AppDelegate.m */,
 				3561C2FA1A5F962100BD9E6A /* ViewController.h */,
 				3561C2FB1A5F962100BD9E6A /* ViewController.m */,
+				350DEB6A1A5FB7B9004B4E70 /* JXGesturePasswordView.h */,
+				350DEB6B1A5FB7B9004B4E70 /* JXGesturePasswordView.m */,
+				350DEB6D1A5FBD8B004B4E70 /* images */,
 				3561C2FD1A5F962100BD9E6A /* Main.storyboard */,
 				3561C3001A5F962100BD9E6A /* Images.xcassets */,
 				3561C3021A5F962100BD9E6A /* LaunchScreen.xib */,
@@ -200,7 +231,13 @@
 			files = (
 				3561C2FF1A5F962100BD9E6A /* Main.storyboard in Resources */,
 				3561C3041A5F962100BD9E6A /* LaunchScreen.xib in Resources */,
+				350DEB751A5FBD8B004B4E70 /* 密码1@2x.png in Resources */,
+				350DEB761A5FBD8B004B4E70 /* 密码2.png in Resources */,
+				350DEB781A5FBD8B004B4E70 /* 密码3.png in Resources */,
+				350DEB741A5FBD8B004B4E70 /* 密码1.png in Resources */,
+				350DEB791A5FBD8B004B4E70 /* 密码3@2x.png in Resources */,
 				3561C3011A5F962100BD9E6A /* Images.xcassets in Resources */,
+				350DEB771A5FBD8B004B4E70 /* 密码2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3561C2FC1A5F962100BD9E6A /* ViewController.m in Sources */,
+				350DEB6C1A5FB7B9004B4E70 /* JXGesturePasswordView.m in Sources */,
 				3561C2F91A5F962100BD9E6A /* AppDelegate.m in Sources */,
 				3561C2F61A5F962100BD9E6A /* main.m in Sources */,
 			);
@@ -411,6 +449,7 @@
 				3561C3151A5F962100BD9E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3561C3161A5F962100BD9E6A /* Build configuration list for PBXNativeTarget "JXGesturePasswordViewTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +458,7 @@
 				3561C3181A5F962100BD9E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
