@@ -223,7 +223,7 @@
     _password = [NSMutableString string];
     for (JXNodeModel *node in _selectedNodes)
     {
-        [_password appendFormat:@"%ld", node.index];
+        [_password appendFormat:@"%@", @(node.index)];
     }
     
     if (_delegate && [_delegate respondsToSelector:@selector(gesturePasswordView:didFinishDrawPassword:)])
