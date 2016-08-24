@@ -1,5 +1,5 @@
 # GesturePasswordView
-九宫格手势密码绘制实现
+九宫格手势密码
 
 ![GesturePassword.gif](https://github.com/JiongXing/GesturePasswordView/raw/master/screenshots/GesturePassword.gif)
 
